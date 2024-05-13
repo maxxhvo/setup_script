@@ -4,9 +4,9 @@ Pyensemble (ensemble derivative) Setup and Framework for Windows
 
 1. **Clone your desired Directory**
     
-    If you have read access
-        - Create a new folder in your local GitHub directory (typically found in ~\Documents\GitHub) that is appropriately titled.
-        - Then open the folder in your IDE (VS Code) and open the cmd (command prompt)
+    If you have read access  
+      * Create a new folder in your local GitHub directory (typically found in ~\Documents\GitHub) that is appropriately titled.
+      * Then open the folder in your IDE (VS Code) and open the cmd (command prompt)
         ```bash
         git clone git@github.com:username/repository.git
         ```
@@ -37,10 +37,10 @@ Pyensemble (ensemble derivative) Setup and Framework for Windows
     cd pyensemble/experiments
    ```
 
-7. Clone your sub-projects into the experiments folder of the pyensemble framework by repurposing the commands in step 1
+7. Clone your sub-projects into the experiments folder of the by ensemble framework by repurposing the commands in step 1
 
-8. To access the server and AWS buckets appropriately you need to modify the params.ini files in the settings folder and activate VPN
+8. To access the server and AWS buckets appropriately you need to modify the params.ini files in the settings/locals folder (and modify the settings and dev files to match those changes) and activate VPN
 
-9. SUCCESS!
+9. SUCCESS! You can now utilize -runserver and -shell commands
 
 # Additional Documentation
