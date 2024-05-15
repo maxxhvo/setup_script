@@ -1,11 +1,10 @@
 # SETUP SCRIPT
 
-Pyensemble (ensemble derivative) Setup and Framework for Windows
+### Pyensemble (ensemble derivative) Setup and Framework for Windows
 
 ---
 ## 1. **Clone your desired Directory**
-
-   a. &nbsp; **THIS METHOD ONLY WORKS <u>IF YOU HAVE READ OR WRITE PERMISSIONS FOR A REPOSITORY</u>**  
+   a. &nbsp; **THIS METHOD ONLY WORKS <ins>IF YOU HAVE READ OR WRITE PERMISSIONS FOR A REPOSITORY</ins>**  
    b. &nbsp; **REMARK**: This step requires you to have set up a personal SSH key previously.  
    c. &nbsp; Create a new folder in your local GitHub directory (typically found in `~\Documents\GitHub`) that is appropriately titled.  
    d. &nbsp; Then open the folder in your IDE (VS Code) and open the command prompt (`cmd`).  
@@ -22,15 +21,22 @@ Pyensemble (ensemble derivative) Setup and Framework for Windows
 *  OR download the setup.py file and add it to your project manually
 
 ## 3. **Creating the virtual environment:**
-Run the command 
-    ```bash
-    python setup.py
-     ```
+Run the command in `cmd`
+   ```bash
+   python setup.py
+   ```
 
-## 4. **Activate the venv as Instructed for your OS**
-
+## 4. **Activate the venv as Instructed for your Operating System**
+For Windows Run the following command in `cmd`
+   ```bash
+   .venv\\Scripts\\activate
+   ```
+For Unix or MacOS Run the following command in `cmd`'
+   ```bash
+   .venv/bin/activate
+   ```
 ## 5. **To install dependencies**
-Run the command 
+Run the command in `cmd`
    ```bash
    python setup.py --install
    ```
@@ -38,16 +44,20 @@ Run the command
 # For Pysensemble Projects
 
 6. Change your Directory to the Experiments Folder of your cloned pyensemble Directory
-
-    ```bash
+   ```bash
     cd ~
+   ```
+   ```bash
     cd pyensemble/experiments
    ```
 
-7. Clone your sub-projects into the experiments folder of the by ensemble framework by repurposing the commands in step 1
+7. Clone your Specific sub-projects into the experiments folder of the by ensemble framework by repurposing the commands in step 1
 
 8. To access the server and AWS buckets appropriately you need to modify the params.ini files in the settings/locals folder (and modify the settings and dev files to match those changes) and activate VPN
 
 9. SUCCESS! You can now utilize -runserver and -shell commands
 
 # Additional Documentation
+
+[ARCHIVE](https://docs.google.com/document/d/112po9Mf30oeV9Jc-sMp-tjB23gYOv4xI0MT5Iz9y5ks/edit)
+
