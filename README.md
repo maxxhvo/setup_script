@@ -11,9 +11,12 @@
    e. &nbsp; Retrieve the password-protected SSH key for your desired repository (example of how to copy the SSH key of a repository):  
       ![Alt text](https://github.com/maxxhvo/setup_script/blob/main/Example_SSH.png?raw=true)  
    f. &nbsp; Then clone the repository as follows:  
-      ```bash
-      git clone [git@github.com:username/repository.git (your ssh key)]
-      ```  
+
+   ```bash
+   git clone [your SSH key]
+   # (SSH key should be in the form git@github.com:username/repository.git)
+   ```
+  
    g. &nbsp; If the following method does not work, you may need to utilize GitHub Desktop to fix this.
 
 ## 2. **Add this script into your project**
