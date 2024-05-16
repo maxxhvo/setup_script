@@ -1,8 +1,9 @@
-# SETUP SCRIPT
+# OVERVIEW
+This project is implemented to streamline the initial setup of the project environment. It will first guide you through how to replicate a remote repository onto your local machine. (creating a local repository that resides on your machine). Utilizing the setup.py script attached to this project (proceed to step 2 for more information), a properly configured Virtual Environment (venv) and  project-specific dependencies will be properly installed.
 
-### Pyensemble (ensemble derivative) Setup and Framework for Windows
+This allows for procedural/systematic setup of your developer environment and allows for one to start working on this code at a faster rate.
+A separate script may need to be implemented for settings files ~ user-specific
 
----
 ## 1. **Clone your desired Directory**
    a. &nbsp; **THIS METHOD ONLY WORKS <ins>IF YOU HAVE READ OR WRITE PERMISSIONS FOR A REPOSITORY</ins>**  
    b. &nbsp; **REMARK**: This step requires you to have set up a personal SSH key previously.  
