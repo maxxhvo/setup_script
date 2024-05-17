@@ -1,4 +1,4 @@
-# 💡📝 OVERVIEW
+# 📝 OVERVIEW
 This project is implemented to streamline the initial setup of the project environment. It will first guide you through how to replicate a remote repository onto your local machine. (creating a local repository that resides on your machine). Utilizing the setup.py script attached to this project (proceed to step 2 for more information), a properly configured Virtual Environment (venv) and  project-specific dependencies will be properly installed.
 
 This allows for procedural/systematic setup of your developer environment and allows for one to start working on this code at a faster rate.
@@ -52,7 +52,7 @@ Run the command in `cmd`
 ---
 <br />
 
-# 💡For Pysensemble Projects  
+# 💡In the Case of Pysensemble Projects  
 6. Change your Directory to the Experiments Folder of your cloned pyensemble Directory
    ```bash
     cd ~
